@@ -34,6 +34,18 @@
         </entry>
       </file>
       <file leaf-file-name="component.html" pinned="false" current="true" current-in-tab="true">
+
+        <entry file="file://$PROJECT_DIR$/components/7/component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.52863437" vertical-offset="0" max-vertical-offset="681">
+              <caret line="24" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.html" pinned="false" current="false" current-in-tab="false">
+
         <entry file="file://$PROJECT_DIR$/components/8/component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5028818" vertical-offset="221" max-vertical-offset="915">
@@ -287,8 +299,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/8/component.html">
       <provider selected="true" editor-type-id="text-editor">
+
+        <state vertical-scroll-proportion="0.52863437" vertical-offset="0" max-vertical-offset="681">
+          <caret line="24" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
+
         <state vertical-scroll-proportion="0.5028818" vertical-offset="221" max-vertical-offset="915">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+
           <folding />
         </state>
       </provider>
