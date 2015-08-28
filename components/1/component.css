@@ -4,9 +4,47 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+header  {
+    content: "";
+    display: block;
+    background: #fff;
+    left: 20px;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    border-top: 5px solid #bce623;
+    position: absolute;
+    width: 1170px;
+    height: 224px;
 
+}
 
+nav {
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-left: 419px;
+    margin-top: 161px;
 
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px;
+}
+
+p {
+    color: #a59e8d;
+    padding-top: 8px;
+}
 
 
 /* HEADER ======================================== */

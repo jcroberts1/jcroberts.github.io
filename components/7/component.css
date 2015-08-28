@@ -3,6 +3,113 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+
+
+footer{
+    background: #23C0CC;
+    margin-top: 200px;
+    height: 227px;
+    font-family: open sans, sans serif;
+    z-index: 2;
+    min-height: 118px;
+    padding-bottom: 43px;
+}
+
+img{
+    width: 3rem;
+    background-color: #e84c3d;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 120px;
+    margin-left: 130px;
+}
+
+h1{
+    text-indent: 220px;
+    margin-top: -55px;
+    font-size: 55px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    color: #fff;
+    width: 300px;
+}
+
+
+
+p{
+    color: #636b76;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: -35px;
+    margin-left: 215px;
+    width: 500px;
+}
+
+ul{
+    float: right;
+    margin-right: 220px;
+    margin-top: -100px;
+}
+
+li{
+    display: inline-block;
+    width: 40px;
+    background-color: #32353a;
+    border-radius: 50%;
+    padding: 5px;
+    text-indent: -9999px;
+    height: 40px;
+}
+
+li:first-child{
+    background: url("../images/icon-facebook-white-1.png") no-repeat center;
+    background-color: #32353a;
+    background-size: 1.5rem;
+}
+
+li:nth-child(2){
+    background: url("../images/twitter_logo_white.gif") no-repeat center;
+    background-color: #32353a;
+    background-size: 6rem;
+}
+
+li:nth-child(3){
+    background: url("../images/googleplus-icon-02-01.png") no-repeat center;
+    background-color: #32353a;
+    background-size: 1.5rem;
+}
+
+li:nth-child(4){
+    background: url("../images/instagram.png") no-repeat center;
+    background-color: #32353a;
+    background-size: 2rem;
+}
+
+li:hover{
+    background-color: #e84c3d;
+}
+
+a{
+    text-decoration: none;
+    color: #636b76;
+}
+
+a:first-child, a:first-child:hover{
+    color: #fff;
+}
+
+a:hover{
+    color: #e84c3d;
+}
+
+p:last-child{
+    float: right;
+    margin-right: 120px;
+    margin-top: -20px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+}
 
 /* HEADER ======================================== */

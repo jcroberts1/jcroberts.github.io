@@ -3,6 +3,83 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
 
-/* HEADER ======================================== */
+section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #262522;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url('images/bg.jpg');
+    background-size: auto;
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+h1 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section ul li {
+    box-sizing: border-box;
+    width: calc(100% / 3);
+    float: left;
+    padding: 20px;
+}
+
+a {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-right: 83px;
+    font-size: 20px;
+    padding: 0px 34px;
+    line-height: 53px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 400;
+}
