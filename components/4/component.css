@@ -3,83 +3,85 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-body {
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-}
-
-section {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background-color: #262522;
-    border-style: none;
-    border-color: #fff;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    background-image: url('images/bg.jpg');
-    background-size: auto;
-    background-position: left top;
-    background-repeat: repeat;
-}
-
-section {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-}
 
 
-
-h1 {
-    font-weight: 300;
-    font-style: normal;
-    font-family: 'Roboto', sans-serif;
+.wrapper {
+    width: 1170px;
     color: #ffffff;
-    font-size: 48px;
-    line-height: 1;
-    letter-spacing: 1px;
-    text-align: center;
 }
 
-section::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-section ul li {
-    box-sizing: border-box;
-    width: calc(100% / 3);
-    float: left;
-    padding: 20px;
-}
 
-a {
-    float: right;
-    font-family: 'Roboto', sans-serif;
+footer {
+    padding: 70px 0 66px;
+    display: block;
+    width: 1170px;
     color: #ffffff;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin-right: 83px;
-    font-size: 20px;
-    padding: 0px 34px;
-    line-height: 53px;
+}
+
+address {
+    font: 400 16px/26px "Open Sans",sans-serif;
+    color: #4B4B4B;
+    margin-top: -120px;
     text-align: center;
-    cursor: pointer;
+    width: 637px;
+}
+
+
+[class*='fa-']:before {
     font-weight: 400;
+    font-family: "FontAwesome";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+ul > li {
+    display: inline-block;
+}
+
+article ul > li {
+    color: #575e6d;
+    border: solid 1px #e8e8e8;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 42px;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+
+}
+
+
+article {
+    margin-left: 130px;
+    width: 370px;
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    margin-top: 24px;
+    list-style: outside none none;
+    margin-right: 10px;
+
+}
+
+hr {
+    margin-top: -125px;
+    border-top: solid 1px #dfdfdf;
+    width: 350px;
+    margin-left: 149px;
+}
+
+
+iframe {
+    border: 0px none;
+    margin-left: 720px;
+}
+
+footer p {
+    font-family: "Open Sans" Sans-Serif;
+    color: #000000;
+    margin: 10px auto;
+    margin-left: 167px;
 }
