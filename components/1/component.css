@@ -4,47 +4,82 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
-header  {
-    content: "";
-    display: block;
-    background: #fff;
-    left: 20px;
-    right: 20px;
-    top: 0;
-    bottom: 0;
-    border-top: 5px solid #bce623;
-    position: absolute;
-    width: 1170px;
-    height: 224px;
 
+nav h1 {
+    position: absolute;
+    left: 0px;
+    top: 12px;
+    font-size: 43px;
+    font-family:'fa fa-home';
+}
+
+
+
+h2 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #479ed4;
+    text-transform: uppercase;
+    margin-top: 3px;
+    display: block;
 }
 
 nav {
     margin: 0;
-    padding: 0;
-    z-index: 999;
-    clear: both;
-    width: 100%;
-    text-align: center;
-    margin-left: 419px;
-    margin-top: 161px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+    margin-top: 10px;
+    float: right;
+}
+nav {
+    width: 2113.13px;
+    height: 112.05px;
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+}
 
+nav ul li {
+    display: inline-block;
+    margin: 0px;
+
+}
+
+nav {
+    float: right;
+    padding: 20px 0 0 0;
 }
 
 li {
-    list-style: none;
-    float: left;
+    float: left; /* makes list horizontal */
+    list-style-type: none;
+    margin: 1 0 0 30px; /* separates 'buttons' */
 }
 
 a {
-    display: block;
-    padding: 10px;
+    padding: 10px 15px; /* makes target area bigger */
+    color: #333; /* rgba backup */
+    color: rgba(255,255,255, 0.8);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(0,0,0, 0.3);
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
 }
 
-p {
-    color: #a59e8d;
-    padding-top: 8px;
+a:hover, a:focus {
+    color: #fff;
+    background: #fff; /* rgba backup */
+    background: rgb(0, 99, 204);
+    -webkit-border-radius: 4px; /* safari & chrome */
+    -moz-border-radius: 4px; /* firefox */
+    border-radius: 4px; /* futureproof */
 }
-
 
 /* HEADER ======================================== */
