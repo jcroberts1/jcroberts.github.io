@@ -1,13 +1,17 @@
 header, section, footer  {
     max-width: 960px;
+    height: 300px;
     margin: 0 auto;
-    border: solid 1px red;
+    border: solid #000000 1px;
+
 }
 
 iframe {
     width: 50%;
+    height: 290px;
     float: right;
-    background: #cccccc;
+    background: #ffffff;
+    padding: 20px;
 
 }
 
@@ -47,4 +51,45 @@ a {
 
 .pinterest {
     background: url("images/pinterest.png")no-repeat center;
+}
+
+
+address {
+    display: inline-block;
+    margin-top: 52px;
+    margin-left: 100px;
+    font: 400 16px/26px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #040404;
+
+}
+
+p {
+    display: inline-block;
+    text-decoration: none;
+    font: 400 30px/35px "Open Sans", sans-serif;
+    margin-top: 38px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 128px;
+
+}
+
+.copy-right {
+    color: #444954;
+    position: relative;
+    margin-top: 88px;
+    font: 400 16px/26px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    margin-left: -196px;
+}
+
+.privacy {
+    color: #444954;
+    position: relative;
+    margin-top: 88px;
+    font: 400 16px/26px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    margin-left: 26px;
+
 }
