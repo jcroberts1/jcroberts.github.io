@@ -1,87 +1,50 @@
-/* 
-================================================================================
-COMPONENT STYLESHEET
-================================================================================ */
-
-
-
-.wrapper {
-    width: 1170px;
-    color: #ffffff;
+header, section, footer  {
+    max-width: 960px;
+    margin: 0 auto;
+    border: solid 1px red;
 }
-
-
-
-footer {
-    padding: 70px 0 66px;
-    display: block;
-    width: 1170px;
-    color: #ffffff;
-}
-
-address {
-    font: 400 16px/26px "Open Sans",sans-serif;
-    color: #4B4B4B;
-    margin-top: -120px;
-    text-align: center;
-    width: 637px;
-}
-
-
-[class*='fa-']:before {
-    font-weight: 400;
-    font-family: "FontAwesome";
-}
-
-.fa-twitter:before {
-    content: "\f099";
-}
-
-ul > li {
-    display: inline-block;
-}
-
-article ul > li {
-    color: #575e6d;
-    border: solid 1px #e8e8e8;
-    display: inline-block;
-    font-size: 14px;
-    line-height: 42px;
-    border-radius: 50%;
-    width: 42px;
-    height: 42px;
-
-}
-
-
-article {
-    margin-left: 130px;
-    width: 370px;
-    float: left;
-    min-height: 1px;
-    text-align: center;
-    margin-top: 24px;
-    list-style: outside none none;
-    margin-right: 10px;
-
-}
-
-hr {
-    margin-top: -125px;
-    border-top: solid 1px #dfdfdf;
-    width: 350px;
-    margin-left: 149px;
-}
-
 
 iframe {
-    border: 0px none;
-    margin-left: 720px;
+    width: 50%;
+    float: right;
+    background: #cccccc;
+
 }
 
-footer p {
-    font-family: "Open Sans" Sans-Serif;
-    color: #000000;
-    margin: 10px auto;
-    margin-left: 167px;
+ul {
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+
+.twitter {
+    background: url("images/twitter.png")no-repeat center;
+}
+
+.facebook {
+    background: url("images/facebook.png")no-repeat center;
+}
+
+.google-plus {
+    background: url("images/google-plus.png")no-repeat center;
+}
+
+.rss {
+    background: url("images/rss.png")no-repeat center;
+}
+
+.pinterest {
+    background: url("images/pinterest.png")no-repeat center;
 }
