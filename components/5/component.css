@@ -4,58 +4,69 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 
-
-h2:before {
-    position: absolute;
-    top: 0;
-    left: 0;
+#cta {
     display: block;
-    width: 100%;
-    height: 4px;
-    content: "";
-    background: url("images/title_line.png") 50% 0 no-repeat;
+    margin-top: 2.5rem;
+}
+
+.btn {
+    padding: 8px 17px;
+    border-color: transparent;
+    background: #50d170;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 22px;
+    float: right;
+    margin-right: 274px;
+}
+img {
+    width: 15rem;
+    float: left;
+    margin-left: 93px;
+    margin-top: 44px;
 }
 
 
-h2 {
+h3 {
     text-align: center;
-    letter-spacing: 0;
-    color: #000000;
-    font: 30px/36px 'Montserrat',sans-serif;
-    text-transform: uppercase;
-    margin-top: 21px;
-    margin-bottom: 50px;
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: 700;
+    color: #333333;
+    margin-right: -87px;
 }
 
+.text-1 {
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #1cd0a8;
+}
 
 p {
+    font: 400 15px/25px 'PT Sans', sans-serif;
+    color: #777777;
+    padding-left: 2em;
+    margin-top: 16px;
+    margin-left: 345px;
     text-align: center;
-    margin: 0 0 30px;
 }
 
-form {
-    width: 543px;
-    cursor: auto;
-    display: block;
-    height: auto;
-    color: rgb(136,136,136);
-    border-color: rgb(200,200,200);
-    position: relative;
-    border: 1px solid;
-    background: transparent;
-    border-radius: 0;
-    padding: 20px 26px;
-    outline: none;
-    box-shadow: none;
-    font-style: italic;
-    resize: none;
+h5 {
+    font-weight: 600;
+    margin-top: 3rem;
+    color: #222222;
+    padding-bottom: 2.5em;
 }
 
-button {
-    background: #ff5736;
 
+section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5em 0 3em 0;
 }
 
-a {
-    color: rgb(255,255,255);
-}
+
+
